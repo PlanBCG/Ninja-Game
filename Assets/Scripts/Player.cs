@@ -5,8 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public GameObject gameManager;
-    public AudioClip catwalk;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +18,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             transform.Translate(3, 0, 0);
-           
+            GetComponent<AudioSource>().Play();
             //transform.position += new Vector3(3, 0, 0); 
         }
      
@@ -27,7 +26,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             transform.Translate(-3, 0, 0);
-            
+            GetComponent<AudioSource>().Play();
             //放在按鍵偵測中，使得貓咪移動時發出聲音
         }
 
