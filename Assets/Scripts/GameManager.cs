@@ -25,5 +25,6 @@ public class GameManager : MonoBehaviour
     public void DecreaseHP()
     {
         hpGauge.GetComponent<Image>().fillAmount -= 0.1f;
+        GetComponent<AudioSource>().Play();
     }
 }
