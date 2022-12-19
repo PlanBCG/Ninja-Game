@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
         gameManager.GetComponent<GameManager>().DecreaseHP();
     }
 
+
     // 當玩家按下畫面左按鍵時，貓咪往左移動「3」
     public void LButtonDown()
     {
