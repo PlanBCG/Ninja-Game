@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9c8db61f34b015a408ffd43e58c2dee5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameManager: {instanceID: 0}
+  - catwalk: {fileID: 8300000, guid: 13f19543d24e8ba43ae0202ad0876da5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
